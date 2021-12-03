@@ -91,5 +91,25 @@ namespace AdventOfCode._2021.Tests.Resources {
                 return ResourceManager.GetString("Day02", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 00100
+        ///11110
+        ///10110
+        ///10111
+        ///10101
+        ///01111
+        ///00111
+        ///11100
+        ///10000
+        ///11001
+        ///00010
+        ///01010.
+        /// </summary>
+        internal static string Day03 {
+            get {
+                return ResourceManager.GetString("Day03", resourceCulture);
+            }
+        }
     }
 }
