@@ -1,4 +1,4 @@
-﻿using AdventOfCode._2021.ConsoleApp.Days.Day03;
+﻿using AdventOfCode._2021.ConsoleApp.Days.Day04;
 
 var solver = new Solver();
 var input = InputFactory.CreateInput(solver);

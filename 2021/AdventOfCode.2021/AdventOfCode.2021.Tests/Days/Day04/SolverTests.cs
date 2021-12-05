@@ -22,7 +22,7 @@ public class SolverTests
         var sut = new Solver();
         var result = sut.Solution02(input);
 
-        result.Should().Be(0);
+        result.Should().Be(1924);
     }
 }
 

@@ -14,6 +14,8 @@ internal class InputFactory
                 return DayResources.Day02;
             case Days.Day03.Solver:
                 return DayResources.Day03;
+            case Days.Day04.Solver:
+                return DayResources.Day04;
             //case Days.Day04.Solver:
             //    return DayResources.Day04;
         }
