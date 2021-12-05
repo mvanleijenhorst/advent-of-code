@@ -138,5 +138,23 @@ namespace AdventOfCode._2021.Tests.Resources {
                 return ResourceManager.GetString("Day04", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0,9 -&gt; 5,9
+        ///8,0 -&gt; 0,8
+        ///9,4 -&gt; 3,4
+        ///2,2 -&gt; 2,1
+        ///7,0 -&gt; 7,4
+        ///6,4 -&gt; 2,0
+        ///0,9 -&gt; 2,9
+        ///3,4 -&gt; 1,4
+        ///0,0 -&gt; 8,8
+        ///5,5 -&gt; 8,2.
+        /// </summary>
+        internal static string Day05 {
+            get {
+                return ResourceManager.GetString("Day05", resourceCulture);
+            }
+        }
     }
 }

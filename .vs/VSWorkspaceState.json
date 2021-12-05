@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\2021",
-    "\\2021\\AdventOfCode.2021"
+    "\\2021\\AdventOfCode.2021",
+    "\\2021\\AdventOfCode.2021\\AdventOfCode.2021.ConsoleApp",
+    "\\2021\\AdventOfCode.2021\\AdventOfCode.2021.ConsoleApp\\Days",
+    "\\2021\\AdventOfCode.2021\\AdventOfCode.2021.ConsoleApp\\Days\\Day04"
   ],
-  "SelectedNode": "\\2021\\AdventOfCode.2021\\AdventOfCode.2021.sln",
+  "SelectedNode": "\\2021\\AdventOfCode.2021\\AdventOfCode.2021.ConsoleApp\\Days\\Day04\\Solver.cs",
   "PreviewInSolutionExplorer": false
 }
