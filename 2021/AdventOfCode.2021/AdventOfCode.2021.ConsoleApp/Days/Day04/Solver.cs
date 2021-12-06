@@ -6,7 +6,7 @@ public class Solver : ISolver
     private const int NUMBERS = 0;
     private const int GRIDSIZE = 5;
 
-    public int Solution01(string input)
+    public long Solution01(string input)
     {
         var lines = input.Split(NEWLINE);
         var boards = new List<Board>();
@@ -41,7 +41,7 @@ public class Solver : ISolver
     }
 
 
-    public int Solution02(string input)
+    public long Solution02(string input)
     {
         var lines = input.Split(NEWLINE);
         var boards = new List<Board>();

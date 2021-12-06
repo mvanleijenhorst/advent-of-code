@@ -2,8 +2,8 @@
 {
     public interface ISolver
     {
-        int Solution01(string input);
+        long Solution01(string input);
 
-        int Solution02(string input);
+        long Solution02(string input);
     }
 }

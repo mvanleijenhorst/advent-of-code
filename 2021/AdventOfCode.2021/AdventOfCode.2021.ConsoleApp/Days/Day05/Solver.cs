@@ -4,7 +4,7 @@ public class Solver : ISolver
 {
     private const string NEWLINE = "\r\n";
 
-    public int Solution01(string input)
+    public long Solution01(string input)
     {
         var textLines = input.Split(NEWLINE);
 
@@ -26,7 +26,7 @@ public class Solver : ISolver
         return points.Where(p => p.Count > 1).Count();
     }
 
-    public int Solution02(string input)
+    public long Solution02(string input)
     {
         var textLines = input.Split(NEWLINE);
 

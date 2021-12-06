@@ -6,7 +6,7 @@ public class Solver : ISolver
 {
     private const string NEWLINE = "\r\n";
 
-    public int Solution01(string input)
+    public long Solution01(string input)
     {
         var lines = input.Split(NEWLINE);
         var binarylength = lines.FirstOrDefault()?.Length ?? 0;
@@ -33,7 +33,7 @@ public class Solver : ISolver
         return gamma * epsilon;
     }
 
-    public int Solution02(string input)
+    public long Solution02(string input)
     {
         var lines = input.Split(NEWLINE);
         var binarylength = lines.FirstOrDefault()?.Length ?? 0;

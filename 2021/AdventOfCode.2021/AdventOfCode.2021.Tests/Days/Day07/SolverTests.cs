@@ -1,5 +1,5 @@
 ﻿using AdventOfCode._2021.ConsoleApp.Days.Day06;
-namespace AdventOfCode._2021.Tests.Days.Day06;
+namespace AdventOfCode._2021.Tests.Days.Day07;
 
 public class SolverTests
 {
@@ -11,7 +11,7 @@ public class SolverTests
         var sut = new Solver();
         var result = sut.Solution01(_input);
 
-        result.Should().Be(5934);
+        result.Should().Be(0);
     }
 
     [Fact]
@@ -20,7 +20,7 @@ public class SolverTests
         var sut = new Solver();
         var result = sut.Solution02(_input);
 
-        result.Should().Be(26984457539);
+        result.Should().Be(0);
     }
 }
 
